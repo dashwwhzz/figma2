@@ -1,0 +1,1009 @@
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+body {
+    background-color: #FFFFFF;
+        display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+}
+.block {
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Navigation {
+    width: 1440px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: #F9F5FF;
+}
+
+.navigationMain {
+    width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigationConteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigationDescription {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigationLogin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.textLogo {
+    font-weight: bold;
+    color: #101828;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 60px;
+}
+
+.textDeescription {
+    margin-right: 40px;
+    color: #667085;
+    font-weight: 600;
+    font-family: inter;
+    font-size: 17px;
+}
+
+.textDeescription1 {
+    margin-right: 5px;
+
+    color: #667085;
+    font-weight: 600;
+    font-family: inter;
+    font-size: 17px;
+}
+
+.arrow {
+    width: 7px;
+    height: 7px;
+    border: 2px solid #32557f;
+    border-left: 0;
+    border-top: 0;
+    transform: rotate(45deg);
+    margin-top: -2px;
+    margin-right: 40px;
+}
+
+.divContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonSignUp {
+    border-radius: 8px;
+    width: 95px;
+    height: 44px;
+    background-color: #7F56D9;
+    margin-left: -20px;
+    border: 1px solid #7F56D9;
+    color: white;
+}
+
+
+/* 2 блок */
+.Plans {
+    width: 1440px;
+    height: 414px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F5FF;
+}
+
+.plans {
+    width: 1280px;
+    height: 222px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.plansText {
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.textPlans1 {
+    background-color: #F9F5FF;
+    color: #6941C6;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 16px;
+    padding: 4px 12px 4px 12px;
+    border-radius: 16px;
+}
+
+.textPlans2 {
+    color: #42307D;
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 19px;
+}
+
+.textPlans3 {
+    color: #6941C6;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.textPlans4 {
+    margin-left: 12px;
+    color: #42307D;
+    font-size: 16px;
+}
+
+.textPlans5 {
+    color: #6941C6;
+}
+
+.button {
+    width: 44px;
+    height: 24px;
+    background-color: #7F56D9;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.button1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 2px;
+}
+
+.buttonPlans {
+    width: 1216px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.fon {
+    width: 1440px;
+    height: 200px;
+    background-color: #F9F5FF;
+    position: relative;
+    margin-top: -200px;
+}
+.fon1 {
+    background-color: #D6BBFB;
+    width: 466.67px;
+    height: 129.46px;
+    margin-top: -110px;
+    position: absolute;
+}
+/* .fon2 {
+    background-color: #F9F5FF;
+    width: 974px;
+    margin-top: 50px;
+    height: 200px;
+    margin-top: -40px;
+} */
+.fon3 {
+    background-color: #E9D7FE;
+    width: 680px;
+    height: 100px;
+    /* height: 156.45px; */
+    margin-top: -100px;
+    position: absolute;
+}
+.fon4 {
+    background-color: #F4EBFF;
+    width: 200px;
+    height: 100px;
+    margin-top: -100px;
+    position: absolute;
+}
+.fon5 {
+    background-color: #F4EBFF;
+    width: 200px;
+    height: 100px;
+    margin-top: -10px;
+    position: absolute;
+}
+.fon6 {
+    background-color: #D6BBFB;
+    width: 200px;
+    height: 100px;
+    margin-top: -10px;
+    position: absolute;
+}
+.fon7 {
+    background-color: #F9F5FF;
+    width: 1440px;
+    height: 300px;
+    margin-top: -10px;
+    position: absolute;
+}
+.fonA {
+    /* margin-top: 150px; */
+    width: 1440px;
+    height: 96px;
+    display: flex;
+    justify-content: right;
+    transform: skewY(-15deg);
+    /* margin-top: -550px; */
+    /* position: relative; */
+}
+/* .fonB {
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    transform: skewY(-18deg);
+} */
+.fonC {
+    width: 1440px;
+    height: 96px;
+    display: flex;
+    justify-content: right;
+    transform: skewY(-15deg);
+    /* position: absolute; */
+}
+.fonD {
+    width: 1440px;
+    height: 96px;
+    display: flex;
+    justify-content: right;
+    transform: skewY(-15deg);
+}
+.fonE {
+    width: 1440px;
+    height: 96px;
+    display: flex;
+    justify-content: left;
+    transform: skewY(-15deg);
+}
+.fonF {
+    width: 1440px;
+    height: 96px;
+    display: flex;
+    justify-content: left;
+    transform: skewY(-15deg);
+}
+.fonG {
+    width: 1440px;
+    height: px;
+    display: flex;
+    justify-content: left;
+    /* transform: skewY(-15deg); */
+}
+
+.blocks { 
+    margin-top: -455px;
+    width: 1440px;
+    height: 678px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    /* position: absolute; */
+}
+
+.blockConteiner {
+    width: 384px;
+    height: 582px;
+    background-color: #FFFFFF;
+    border: 1px solid #EAECF0;
+    margin-right: 32px;
+    border-radius: 16px;
+
+}
+
+.blockConteiners {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.Tick {
+    border: 1px solid #F9F5FF;
+    width: 24px;
+    height: 24px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #F4EBFF;
+}
+
+.tick {
+    color: #9E77ED;
+}
+
+.textTick {
+    margin-left: 20px;
+    color: #667085;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.conteinerTick {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.conteiner_tick {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 48px;
+    margin-top: 30px;
+}
+
+.titleBlock {
+    color: #6941C6;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.dollarBlock {
+    color: #101828;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.textBlock {
+    color: #667085;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.buttonBlock {
+    border: 1px solid #7F56D9;
+    background-color: #7F56D9;
+    color: white;
+    border-radius: 8px;
+    padding: 12px 20px 12px 20px;
+    width: 320px;
+}
+
+.buttonBlocks {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonBl {
+    width: 384px;
+    height: 112px;
+    margin-top: 45px;
+}
+
+.iconBlock1 {
+    width: 40px;
+    height: 40px;
+    background-color: #F4EBFF;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #7F56D9;
+    border: 6px solid #F9F5FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+
+
+.freeStart {
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 308px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding: 0 0 96px 0; */
+}
+
+.start {
+    width: 1216px;
+    height: 212px;
+    background-color: #F9F5FF;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 65px 0 65px;
+    align-items: center;
+}
+
+.textFreeStart1 {
+    width: 768px;
+    height: 38px;
+    color: #42307D;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.textFreeStart2 {
+    color: #6941C6;
+    width: 768px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.conteinerButtonFreeStart {
+    width: 269px;
+    display: flex;
+}
+
+.buttonFreeStart1 {
+    width: 128px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 12px, 20px, 12px, 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    color: #344054;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 12px;
+}
+
+.buttonFreeStart2 {
+    width: 129px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 12px, 20px, 12px, 20px;
+    background-color: #7F56D9;
+    border: 1px solid #7F56D9;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* .free {
+    display: flex;
+    justify-content: center;
+} */
+
+.Features {
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    margin-bottom: 110px;
+}
+
+.textBlock1 {
+    color: #6941C6;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.textBlock2 {
+    color: #101828;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.textBlock3 {
+    width: 650px;
+    color: #667085;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.mainDivFeatures {
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.textAndTick {
+    display: flex;
+    align-items: center;
+}
+
+.borderTextTick1 {
+    color: #6941C6;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.borderTextTick2 {
+    color: #6941C6;
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
+
+.textBlockFeatures {
+    width: 320px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #667085;
+    margin-bottom: 40px;
+}
+
+.titleBlockFeatures {
+    width: 384px;
+    color: #101828;
+    font-weight: 500px;
+    font-size: 20px;
+    margin-bottom: 8px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.iconFeatures1 {
+    width: 24px;
+    height: 24px;
+    background-color: #F4EBFF;
+    border-radius: 28px;
+    font-size: 20px;
+    color: #7F56D9;
+    border: 8px solid #F9F5FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconFeatures {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 64px;
+    margin-bottom: 10px;
+}
+
+.blocksFeatures {
+    width: 1216px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.conteinerBox {
+    margin-right: 30px;
+}
+
+.conteinerCompanies {
+    background-color: #F9F5FF;
+    padding: 96px 0px 96px 0px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainCompanies {
+    width: 1280px;
+    height: 104px;
+    padding: 0px 32px 0px 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.textCompany {
+    color: #6941C6;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Company {
+    width: 1216px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+}
+
+.conteinerCompany {
+    width: 146px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteinerCompany1 {
+    width: 169px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteinerCompany2 {
+    width: 183px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteinerCompany3 {
+    width: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteinerCompany4 {
+    width: 187px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.SupportMainConteiner {
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 96px 0px 96px 0px;
+    justify-content: center;
+}
+
+.SupportConteinerText {
+    width: 708px;
+    height: 160px;
+    padding: 0px 32px 0px 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.textBlockA {
+    width: 768px;
+    color: #6941C6;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.textBlockB {
+    width: 768px;
+    color: #101828;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.textBlockC {
+    width: 768px;
+    color: #667085;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.imgSupport {
+    width: 560px;
+    height: 560px;
+}
+
+.conteinerImgSupport {
+    width: 1280px;
+    padding: 0px 32px 0px 32px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titleSupport {
+    width: 496px;
+    color: #101828;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.textSupport {
+    width: 410px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #667085;
+}
+
+.divConteinerSuppport {
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.conteinerSupport {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 65px;
+}
+
+.iconSupport {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 16px;
+    margin-top: -43px;
+}
+
+.iconSupport1 {
+    width: 24px;
+    height: 24px;
+    background-color: #F4EBFF;
+    border-radius: 28px;
+    font-size: 20px;
+    color: #7F56D9;
+    border: 8px solid #F9F5FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.StartTrial {
+    width: 1440px;
+    height: 286px;
+    background-color: #53389E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startTrial {
+    width: 1216px;
+    height: 212px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 65px 0 65px;
+    align-items: center;
+}
+
+.textStartTrial1 {
+    width: 768px;
+    height: 38px;
+    color: #42307D;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 26px;
+    letter-spacing: -2%;
+    color: #FFFFFF;
+}
+
+.textStartTrial2 {
+    color: #6941C6;
+    width: 768px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #E9D7FE;
+}
+
+.conteinerButtonStartTrial {
+    width: 269px;
+    height: 48px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.buttonStartTrial1 {
+    width: 128px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 12px, 20px, 12px, 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    color: #344054;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 12px;
+}
+
+.buttonStartTrial2 {
+    width: 129px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 12px, 20px, 12px, 20px;
+    background-color: #7F56D9;
+    border: 1px solid #7F56D9;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.conteinerEnd {
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 672px;
+    padding: 64px 0px 48px 0px;
+
+}
+.conteinerNewsletter {
+    width: 1280px;
+    height: 127px;
+    padding: 0px 32px 0px 32px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 88px;        
+    border-bottom: 1px solid #98A2B3;
+}
+.textNewsletter1 {
+    width: 773px;
+    height: 30px;
+    margin-bottom: 8px;
+    color: #101828;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 100px;
+}
+.textNewsletter2 {
+    width: 773px;
+    height: 24px;
+    color: #667085;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 100px;
+}
+.divConteinerNewsletter {
+    width: 1216px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteinerButtonNewsletter {
+    width: 441px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+.textButtonNewsletter {
+    width: 280px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    color: #667085;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 14px 10px 14px;
+    margin-right: 16px;
+    margin-left: 20px;
+}
+.ButtonNewsletter {
+    width: 115px;
+    height: 44px;
+    background-color: #7F56D9;
+    color: #FFFFFF;
+    border: 1px solid #7F56D9;
+    border-radius: 8px;
+}
+.conteinerButtonNewsletter1 {
+    width: 773px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainList {
+    width: 1280px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.List {
+    width: 1216px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 32px 0px 32px;
+    margin-left: 85px;
+}
+.conteinerList {
+    width: 176px;
+    height: 240px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.conteinerList2 {
+    width: 176px;
+    height: 204px;
+}
+.titleList {
+    width: 176px;
+    height: 20px;
+    color: #98A2B3;
+    font-size: 14px;
+    font-weight: 600;
+}
+.textList {
+    color: #667085;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.List1 {
+    width: 1216px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+}
+
+.logoEnd {
+    width: 1280px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 0px 32px 0px 32px;
+    border-top: 1px solid #98A2B3;
+}
+.logoEnd1 {
+    width: 1216px;
+    display: flex;
+    justify-content: space-between;
+}
+.textLogoEnd {
+    color: #98A2B3;
+    font-weight: 400;
+    font-size: 16px;
+}
+.divLogoEnd {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 102px;
+
+}
